@@ -1,5 +1,5 @@
 body {
-  background-color: #e6f5f4;
+  background-color:black;
 }
 
 #row1 {
@@ -21,58 +21,51 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* align-content: space-between; */
 }
 
 #square1 {
-  background-color: lightgreen;
-  border-radius: 8px;
-  width: 352px;
-  height: 352px;
+  background-image: url("1.png");
+  border-radius: 50%;
+width: 300px;
+  height: 300px;
   display: flex;
 }
 
 #square2 {
-  width: 352px;
-  height: 352px;
-  background-color: lightcoral;
-  border-radius: 8px;
+  background-image: url("2.png");
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 #square3 {
-  width: 352px;
-  height: 352px;
-  background-color: lightgray;
-  border-radius: 8px;
+  background-image: url("3.png");
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 #square4 {
-  width: 352px;
-  height: 352px;
-  background-color: lightgoldenrodyellow;
-  border-radius: 8px;
+  background-image: url("4.png");
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 #square5 {
-  width: 352px;
-  height: 352px;
-  background-color: lightseagreen;
-  border-radius: 8px;
+  background-image: url("5.png");
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 #square6 {
-  width: 352px;
-  height: 352px;
-  background-color: lightsalmon;
-  border-radius: 8px;
+  background-image: url("6.png");
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 #mainText {
-  color: green;
+  color: orange;
   text-align: center;
-}
-
-#textInBox {
-  color: blueviolet;
-  display: flex;
-  align-content: center
 }
