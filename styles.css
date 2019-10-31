@@ -78,6 +78,32 @@ width: 300px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.corner-ribbon.top-right {
+  top: 25px;
+  right: -62px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.corner-ribbon.sticky {
+  position: fixed;
+}
+
+.corner-ribbon {
+  width: 170px;
+  background: black ;
+  position: sticky;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: orange;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border: solid 1px
+}
+
 @-webkit-keyframes swing
 {
     15%
